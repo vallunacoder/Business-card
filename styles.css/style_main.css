@@ -1,0 +1,67 @@
+body{
+    font-size: medium;
+    color: #222222;
+    font-family: 'Archivo', sans-serif;
+    cursor: pointer;
+}
+
+/*Header*/
+
+h1{
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Courier Prime', monospace;
+    font-style: 30px;
+    margin-bottom: 75px;
+}
+
+/* main*/
+
+.top-view{
+    max-width:  1400px;
+    background-color: aquamarine;
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+    padding-bottom: 50px;
+}
+
+.middle-view{
+    color: #222222;
+    margin-top: 50px;
+    max-width:  1400px;
+    background-color: aquamarine;
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+    padding: 30px;
+}
+
+
+/*styles for the business card*/
+
+
+.avatar{
+    width: 150px;
+    border-radius: 50%;
+    border:2px solid #222222;
+    box-shadow: inset;
+}
+
+
+
+
+.card {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    display:flex;/*this go but for the children*/
+    text-align: center;
+    justify-content: space-around;  
+    font-family: 'Courier Prime', monospace;
+    background-color: lightskyblue;
+    border: 2px solid #222222;
+
+}
+
+
+
+
